@@ -1,0 +1,1656 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\51_car\51_car.uvproj
+Project File Date:  01/01/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYMS?DELAY
+Program Size: data=9.0 xdata=0 code=199
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYMS?DELAY
+Program Size: data=9.0 xdata=0 code=199
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+creating library 51_car.LIB...
+TRANSFER
+"STARTUP.obj",
+"delay.obj",
+"main.obj",
+"moto.obj" 
+TO "51_car.LIB"
+LIB51 LIBRARY MANAGER V4.24
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2002
+"51_car.LIB" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+creating library 51_car.LIB...
+TRANSFER
+"STARTUP.obj",
+"delay.obj",
+"main.obj",
+"moto.obj" 
+TO "51_car.LIB"
+LIB51 LIBRARY MANAGER V4.24
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2002
+"51_car.LIB" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(15): warning C206: 'buzz_di_di': missing function-prototype
+creating library 51_car.LIB...
+TRANSFER
+"STARTUP.obj",
+"delay.obj",
+"main.obj",
+"moto.obj" 
+TO "51_car.LIB"
+LIB51 LIBRARY MANAGER V4.24
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2002
+"51_car.LIB" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+MAIN.C(15): warning C206: 'buzz_di_di': missing function-prototype
+compiling moto.c...
+creating library 51_car.LIB...
+TRANSFER
+"STARTUP.obj",
+"delay.obj",
+"main.obj",
+"moto.obj" 
+TO "51_car.LIB"
+LIB51 LIBRARY MANAGER V4.24
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2002
+"51_car.LIB" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+MAIN.C(15): warning C206: 'buzz_di_di': missing function-prototype
+compiling moto.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYMS?DELAY
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  BUZZ_DI_DI
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  BUZZ_DI_DI
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0007H
+Program Size: data=9.0 xdata=0 code=202
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling buzz.c...
+BUZZ.C(10): error C202: 'buzz_io': undefined identifier
+BUZZ.C(14): error C202: 'buzz_io': undefined identifier
+BUZZ.C(19): error C202: 'true': undefined identifier
+BUZZ.C(21): error C202: 'true': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(15): warning C206: 'buzz_di_di': missing function-prototype
+compiling moto.c...
+compiling buzz.c...
+BUZZ.C(10): error C202: 'buzz_io': undefined identifier
+BUZZ.C(14): error C202: 'buzz_io': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling buzz.c...
+linking...
+Program Size: data=9.0 xdata=0 code=240
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+MAIN.C(15): warning C206: 'buzz_di_di': missing function-prototype
+compiling moto.c...
+compiling buzz.c...
+linking...
+Program Size: data=9.0 xdata=0 code=240
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+MAIN.C(15): warning C206: 'buzz_di_di': missing function-prototype
+compiling moto.c...
+compiling buzz.c...
+linking...
+Program Size: data=9.0 xdata=0 code=252
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(15): warning C206: 'buzz_di_di': missing function-prototype
+MAIN.C(15): error C267: 'buzz_di_di': requires ANSI-style prototype
+compiling buzz.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(15): warning C206: 'buzz_di_di': missing function-prototype
+MAIN.C(15): error C267: 'buzz_di_di': requires ANSI-style prototype
+compiling buzz.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(15): warning C206: 'buzz_count_di': missing function-prototype
+MAIN.C(15): error C267: 'buzz_count_di': requires ANSI-style prototype
+compiling buzz.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(15): warning C206: 'buzz_count_di': missing function-prototype
+MAIN.C(15): error C267: 'buzz_count_di': requires ANSI-style prototype
+compiling buzz.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=11.0 xdata=0 code=263
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+linking...
+Program Size: data=11.0 xdata=0 code=263
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=263
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+linking...
+Program Size: data=11.0 xdata=0 code=263
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(13): warning C206: 'serial_init': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SERIAL_INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SERIAL_INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0004H
+Program Size: data=11.0 xdata=0 code=266
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SERIAL_INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SERIAL_INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0004H
+Program Size: data=11.0 xdata=0 code=266
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SERIAL_INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SERIAL_INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0004H
+Program Size: data=11.0 xdata=0 code=266
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+C:\KEIL\C51\INC\REG51.H(13): error C231: 'P0': redefinition
+C:\KEIL\C51\INC\REG51.H(14): error C231: 'P1': redefinition
+C:\KEIL\C51\INC\REG51.H(15): error C231: 'P2': redefinition
+C:\KEIL\C51\INC\REG51.H(16): error C231: 'P3': redefinition
+C:\KEIL\C51\INC\REG51.H(17): error C231: 'PSW': redefinition
+C:\KEIL\C51\INC\REG51.H(18): error C231: 'ACC': redefinition
+C:\KEIL\C51\INC\REG51.H(19): error C231: 'B': redefinition
+C:\KEIL\C51\INC\REG51.H(20): error C231: 'SP': redefinition
+C:\KEIL\C51\INC\REG51.H(21): error C231: 'DPL': redefinition
+C:\KEIL\C51\INC\REG51.H(22): error C231: 'DPH': redefinition
+C:\KEIL\C51\INC\REG51.H(23): error C231: 'PCON': redefinition
+C:\KEIL\C51\INC\REG51.H(24): error C231: 'TCON': redefinition
+C:\KEIL\C51\INC\REG51.H(25): error C231: 'TMOD': redefinition
+C:\KEIL\C51\INC\REG51.H(26): error C231: 'TL0': redefinition
+C:\KEIL\C51\INC\REG51.H(27): error C231: 'TL1': redefinition
+C:\KEIL\C51\INC\REG51.H(28): error C231: 'TH0': redefinition
+C:\KEIL\C51\INC\REG51.H(29): error C231: 'TH1': redefinition
+C:\KEIL\C51\INC\REG51.H(30): error C231: 'IE': redefinition
+C:\KEIL\C51\INC\REG51.H(31): error C231: 'IP': redefinition
+C:\KEIL\C51\INC\REG51.H(32): error C231: 'SCON': redefinition
+C:\KEIL\C51\INC\REG51.H(33): error C231: 'SBUF': redefinition
+C:\KEIL\C51\INC\REG51.H(38): error C231: 'CY': redefinition
+C:\KEIL\C51\INC\REG51.H(39): error C231: 'AC': redefinition
+C:\KEIL\C51\INC\REG51.H(40): error C231: 'F0': redefinition
+C:\KEIL\C51\INC\REG51.H(41): error C231: 'RS1': redefinition
+C:\KEIL\C51\INC\REG51.H(42): error C231: 'RS0': redefinition
+C:\KEIL\C51\INC\REG51.H(43): error C231: 'OV': redefinition
+C:\KEIL\C51\INC\REG51.H(44): error C231: 'P': redefinition
+C:\KEIL\C51\INC\REG51.H(47): error C231: 'TF1': redefinition
+C:\KEIL\C51\INC\REG51.H(48): error C231: 'TR1': redefinition
+C:\KEIL\C51\INC\REG51.H(49): error C231: 'TF0': redefinition
+C:\KEIL\C51\INC\REG51.H(50): error C231: 'TR0': redefinition
+C:\KEIL\C51\INC\REG51.H(51): error C231: 'IE1': redefinition
+C:\KEIL\C51\INC\REG51.H(52): error C231: 'IT1': redefinition
+C:\KEIL\C51\INC\REG51.H(53): error C231: 'IE0': redefinition
+C:\KEIL\C51\INC\REG51.H(54): error C231: 'IT0': redefinition
+C:\KEIL\C51\INC\REG51.H(57): error C231: 'EA': redefinition
+C:\KEIL\C51\INC\REG51.H(58): error C231: 'ES': redefinition
+C:\KEIL\C51\INC\REG51.H(59): error C231: 'ET1': redefinition
+C:\KEIL\C51\INC\REG51.H(60): error C231: 'EX1': redefinition
+C:\KEIL\C51\INC\REG51.H(61): error C231: 'ET0': redefinition
+C:\KEIL\C51\INC\REG51.H(62): error C231: 'EX0': redefinition
+C:\KEIL\C51\INC\REG51.H(65): error C231: 'PS': redefinition
+C:\KEIL\C51\INC\REG51.H(66): error C231: 'PT1': redefinition
+C:\KEIL\C51\INC\REG51.H(67): error C231: 'PX1': redefinition
+C:\KEIL\C51\INC\REG51.H(68): error C231: 'PT0': redefinition
+C:\KEIL\C51\INC\REG51.H(69): error C231: 'PX0': redefinition
+C:\KEIL\C51\INC\REG51.H(72): error C231: 'RD': redefinition
+C:\KEIL\C51\INC\REG51.H(73): error C231: 'WR': redefinition
+C:\KEIL\C51\INC\REG51.H(74): error C231: 'T1': redefinition
+C:\KEIL\C51\INC\REG51.H(75): error C231: 'T0': redefinition
+C:\KEIL\C51\INC\REG51.H(76): error C231: 'INT1': redefinition
+C:\KEIL\C51\INC\REG51.H(77): error C231: 'INT0': redefinition
+C:\KEIL\C51\INC\REG51.H(78): error C231: 'TXD': redefinition
+C:\KEIL\C51\INC\REG51.H(79): error C231: 'RXD': redefinition
+C:\KEIL\C51\INC\REG51.H(82): error C231: 'SM0': redefinition
+C:\KEIL\C51\INC\REG51.H(83): error C231: 'SM1': redefinition
+C:\KEIL\C51\INC\REG51.H(84): error C231: 'SM2': redefinition
+C:\KEIL\C51\INC\REG51.H(85): error C231: 'REN': redefinition
+C:\KEIL\C51\INC\REG51.H(86): error C231: 'TB8': redefinition
+C:\KEIL\C51\INC\REG51.H(87): error C231: 'RB8': redefinition
+C:\KEIL\C51\INC\REG51.H(88): error C231: 'TI': redefinition
+C:\KEIL\C51\INC\REG51.H(89): error C231: 'RI': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+C:\KEIL\C51\INC\REG51.H(13): error C231: 'P0': redefinition
+C:\KEIL\C51\INC\REG51.H(14): error C231: 'P1': redefinition
+C:\KEIL\C51\INC\REG51.H(15): error C231: 'P2': redefinition
+C:\KEIL\C51\INC\REG51.H(16): error C231: 'P3': redefinition
+C:\KEIL\C51\INC\REG51.H(17): error C231: 'PSW': redefinition
+C:\KEIL\C51\INC\REG51.H(18): error C231: 'ACC': redefinition
+C:\KEIL\C51\INC\REG51.H(19): error C231: 'B': redefinition
+C:\KEIL\C51\INC\REG51.H(20): error C231: 'SP': redefinition
+C:\KEIL\C51\INC\REG51.H(21): error C231: 'DPL': redefinition
+C:\KEIL\C51\INC\REG51.H(22): error C231: 'DPH': redefinition
+C:\KEIL\C51\INC\REG51.H(23): error C231: 'PCON': redefinition
+C:\KEIL\C51\INC\REG51.H(24): error C231: 'TCON': redefinition
+C:\KEIL\C51\INC\REG51.H(25): error C231: 'TMOD': redefinition
+C:\KEIL\C51\INC\REG51.H(26): error C231: 'TL0': redefinition
+C:\KEIL\C51\INC\REG51.H(27): error C231: 'TL1': redefinition
+C:\KEIL\C51\INC\REG51.H(28): error C231: 'TH0': redefinition
+C:\KEIL\C51\INC\REG51.H(29): error C231: 'TH1': redefinition
+C:\KEIL\C51\INC\REG51.H(30): error C231: 'IE': redefinition
+C:\KEIL\C51\INC\REG51.H(31): error C231: 'IP': redefinition
+C:\KEIL\C51\INC\REG51.H(32): error C231: 'SCON': redefinition
+C:\KEIL\C51\INC\REG51.H(33): error C231: 'SBUF': redefinition
+C:\KEIL\C51\INC\REG51.H(38): error C231: 'CY': redefinition
+C:\KEIL\C51\INC\REG51.H(39): error C231: 'AC': redefinition
+C:\KEIL\C51\INC\REG51.H(40): error C231: 'F0': redefinition
+C:\KEIL\C51\INC\REG51.H(41): error C231: 'RS1': redefinition
+C:\KEIL\C51\INC\REG51.H(42): error C231: 'RS0': redefinition
+C:\KEIL\C51\INC\REG51.H(43): error C231: 'OV': redefinition
+C:\KEIL\C51\INC\REG51.H(44): error C231: 'P': redefinition
+C:\KEIL\C51\INC\REG51.H(47): error C231: 'TF1': redefinition
+C:\KEIL\C51\INC\REG51.H(48): error C231: 'TR1': redefinition
+C:\KEIL\C51\INC\REG51.H(49): error C231: 'TF0': redefinition
+C:\KEIL\C51\INC\REG51.H(50): error C231: 'TR0': redefinition
+C:\KEIL\C51\INC\REG51.H(51): error C231: 'IE1': redefinition
+C:\KEIL\C51\INC\REG51.H(52): error C231: 'IT1': redefinition
+C:\KEIL\C51\INC\REG51.H(53): error C231: 'IE0': redefinition
+C:\KEIL\C51\INC\REG51.H(54): error C231: 'IT0': redefinition
+C:\KEIL\C51\INC\REG51.H(57): error C231: 'EA': redefinition
+C:\KEIL\C51\INC\REG51.H(58): error C231: 'ES': redefinition
+C:\KEIL\C51\INC\REG51.H(59): error C231: 'ET1': redefinition
+C:\KEIL\C51\INC\REG51.H(60): error C231: 'EX1': redefinition
+C:\KEIL\C51\INC\REG51.H(61): error C231: 'ET0': redefinition
+C:\KEIL\C51\INC\REG51.H(62): error C231: 'EX0': redefinition
+C:\KEIL\C51\INC\REG51.H(65): error C231: 'PS': redefinition
+C:\KEIL\C51\INC\REG51.H(66): error C231: 'PT1': redefinition
+C:\KEIL\C51\INC\REG51.H(67): error C231: 'PX1': redefinition
+C:\KEIL\C51\INC\REG51.H(68): error C231: 'PT0': redefinition
+C:\KEIL\C51\INC\REG51.H(69): error C231: 'PX0': redefinition
+C:\KEIL\C51\INC\REG51.H(72): error C231: 'RD': redefinition
+C:\KEIL\C51\INC\REG51.H(73): error C231: 'WR': redefinition
+C:\KEIL\C51\INC\REG51.H(74): error C231: 'T1': redefinition
+C:\KEIL\C51\INC\REG51.H(75): error C231: 'T0': redefinition
+C:\KEIL\C51\INC\REG51.H(76): error C231: 'INT1': redefinition
+C:\KEIL\C51\INC\REG51.H(77): error C231: 'INT0': redefinition
+C:\KEIL\C51\INC\REG51.H(78): error C231: 'TXD': redefinition
+C:\KEIL\C51\INC\REG51.H(79): error C231: 'RXD': redefinition
+C:\KEIL\C51\INC\REG51.H(82): error C231: 'SM0': redefinition
+C:\KEIL\C51\INC\REG51.H(83): error C231: 'SM1': redefinition
+C:\KEIL\C51\INC\REG51.H(84): error C231: 'SM2': redefinition
+C:\KEIL\C51\INC\REG51.H(85): error C231: 'REN': redefinition
+C:\KEIL\C51\INC\REG51.H(86): error C231: 'TB8': redefinition
+C:\KEIL\C51\INC\REG51.H(87): error C231: 'RB8': redefinition
+C:\KEIL\C51\INC\REG51.H(88): error C231: 'TI': redefinition
+C:\KEIL\C51\INC\REG51.H(89): error C231: 'RI': redefinition
+compiling serial.c...
+C:\KEIL\C51\INC\REG51.H(13): error C231: 'P0': redefinition
+C:\KEIL\C51\INC\REG51.H(14): error C231: 'P1': redefinition
+C:\KEIL\C51\INC\REG51.H(15): error C231: 'P2': redefinition
+C:\KEIL\C51\INC\REG51.H(16): error C231: 'P3': redefinition
+C:\KEIL\C51\INC\REG51.H(17): error C231: 'PSW': redefinition
+C:\KEIL\C51\INC\REG51.H(18): error C231: 'ACC': redefinition
+C:\KEIL\C51\INC\REG51.H(19): error C231: 'B': redefinition
+C:\KEIL\C51\INC\REG51.H(20): error C231: 'SP': redefinition
+C:\KEIL\C51\INC\REG51.H(21): error C231: 'DPL': redefinition
+C:\KEIL\C51\INC\REG51.H(22): error C231: 'DPH': redefinition
+C:\KEIL\C51\INC\REG51.H(23): error C231: 'PCON': redefinition
+C:\KEIL\C51\INC\REG51.H(24): error C231: 'TCON': redefinition
+C:\KEIL\C51\INC\REG51.H(25): error C231: 'TMOD': redefinition
+C:\KEIL\C51\INC\REG51.H(26): error C231: 'TL0': redefinition
+C:\KEIL\C51\INC\REG51.H(27): error C231: 'TL1': redefinition
+C:\KEIL\C51\INC\REG51.H(28): error C231: 'TH0': redefinition
+C:\KEIL\C51\INC\REG51.H(29): error C231: 'TH1': redefinition
+C:\KEIL\C51\INC\REG51.H(30): error C231: 'IE': redefinition
+C:\KEIL\C51\INC\REG51.H(31): error C231: 'IP': redefinition
+C:\KEIL\C51\INC\REG51.H(32): error C231: 'SCON': redefinition
+C:\KEIL\C51\INC\REG51.H(33): error C231: 'SBUF': redefinition
+C:\KEIL\C51\INC\REG51.H(38): error C231: 'CY': redefinition
+C:\KEIL\C51\INC\REG51.H(39): error C231: 'AC': redefinition
+C:\KEIL\C51\INC\REG51.H(40): error C231: 'F0': redefinition
+C:\KEIL\C51\INC\REG51.H(41): error C231: 'RS1': redefinition
+C:\KEIL\C51\INC\REG51.H(42): error C231: 'RS0': redefinition
+C:\KEIL\C51\INC\REG51.H(43): error C231: 'OV': redefinition
+C:\KEIL\C51\INC\REG51.H(44): error C231: 'P': redefinition
+C:\KEIL\C51\INC\REG51.H(47): error C231: 'TF1': redefinition
+C:\KEIL\C51\INC\REG51.H(48): error C231: 'TR1': redefinition
+C:\KEIL\C51\INC\REG51.H(49): error C231: 'TF0': redefinition
+C:\KEIL\C51\INC\REG51.H(50): error C231: 'TR0': redefinition
+C:\KEIL\C51\INC\REG51.H(51): error C231: 'IE1': redefinition
+C:\KEIL\C51\INC\REG51.H(52): error C231: 'IT1': redefinition
+C:\KEIL\C51\INC\REG51.H(53): error C231: 'IE0': redefinition
+C:\KEIL\C51\INC\REG51.H(54): error C231: 'IT0': redefinition
+C:\KEIL\C51\INC\REG51.H(57): error C231: 'EA': redefinition
+C:\KEIL\C51\INC\REG51.H(58): error C231: 'ES': redefinition
+C:\KEIL\C51\INC\REG51.H(59): error C231: 'ET1': redefinition
+C:\KEIL\C51\INC\REG51.H(60): error C231: 'EX1': redefinition
+C:\KEIL\C51\INC\REG51.H(61): error C231: 'ET0': redefinition
+C:\KEIL\C51\INC\REG51.H(62): error C231: 'EX0': redefinition
+C:\KEIL\C51\INC\REG51.H(65): error C231: 'PS': redefinition
+C:\KEIL\C51\INC\REG51.H(66): error C231: 'PT1': redefinition
+C:\KEIL\C51\INC\REG51.H(67): error C231: 'PX1': redefinition
+C:\KEIL\C51\INC\REG51.H(68): error C231: 'PT0': redefinition
+C:\KEIL\C51\INC\REG51.H(69): error C231: 'PX0': redefinition
+C:\KEIL\C51\INC\REG51.H(72): error C231: 'RD': redefinition
+C:\KEIL\C51\INC\REG51.H(73): error C231: 'WR': redefinition
+C:\KEIL\C51\INC\REG51.H(74): error C231: 'T1': redefinition
+C:\KEIL\C51\INC\REG51.H(75): error C231: 'T0': redefinition
+C:\KEIL\C51\INC\REG51.H(76): error C231: 'INT1': redefinition
+C:\KEIL\C51\INC\REG51.H(77): error C231: 'INT0': redefinition
+C:\KEIL\C51\INC\REG51.H(78): error C231: 'TXD': redefinition
+C:\KEIL\C51\INC\REG51.H(79): error C231: 'RXD': redefinition
+C:\KEIL\C51\INC\REG51.H(82): error C231: 'SM0': redefinition
+C:\KEIL\C51\INC\REG51.H(83): error C231: 'SM1': redefinition
+C:\KEIL\C51\INC\REG51.H(84): error C231: 'SM2': redefinition
+C:\KEIL\C51\INC\REG51.H(85): error C231: 'REN': redefinition
+C:\KEIL\C51\INC\REG51.H(86): error C231: 'TB8': redefinition
+C:\KEIL\C51\INC\REG51.H(87): error C231: 'RB8': redefinition
+C:\KEIL\C51\INC\REG51.H(88): error C231: 'TI': redefinition
+C:\KEIL\C51\INC\REG51.H(89): error C231: 'RI': redefinition
+Target not created
+Build target 'Target 1'
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+Program Size: data=15.0 xdata=0 code=329
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling serial.c...
+linking...
+Program Size: data=17.0 xdata=0 code=462
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling serial.c...
+SERIAL.C(16): error C202: 'l_buf': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling serial.c...
+linking...
+Program Size: data=17.0 xdata=0 code=520
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=17.0 xdata=0 code=520
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+linking...
+Program Size: data=17.0 xdata=0 code=520
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling serial.c...
+SERIAL.C(57): error C141: syntax error near '='
+SERIAL.C(57): error C141: syntax error near '&&'
+SERIAL.C(57): error C141: syntax error near ')'
+SERIAL.C(57): error C141: syntax error near ':'
+SERIAL.C(57): error C141: syntax error near ')'
+SERIAL.C(61): error C141: syntax error near ':'
+SERIAL.C(67): error C141: syntax error near ':'
+SERIAL.C(73): error C141: syntax error near ':'
+SERIAL.C(79): error C141: syntax error near ':'
+SERIAL.C(85): error C141: syntax error near ':'
+SERIAL.C(92): error C141: syntax error near 'else'
+Target not created
+Build target 'Target 1'
+compiling serial.c...
+SERIAL.C(61): error C141: syntax error near ':'
+SERIAL.C(67): error C141: syntax error near ':'
+SERIAL.C(73): error C141: syntax error near ':'
+SERIAL.C(79): error C141: syntax error near ':'
+SERIAL.C(85): error C141: syntax error near ':'
+Target not created
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_CONTROL_CAR?SERIAL
+Program Size: data=17.0 xdata=0 code=590
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_CONTROL_CAR?SERIAL
+Program Size: data=17.0 xdata=0 code=604
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CAR_RIGHT?MOTO
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BUZZ_COUNT_DI?BUZZ
+Program Size: data=17.0 xdata=0 code=550
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BUZZ_COUNT_DI?BUZZ
+Program Size: data=17.0 xdata=0 code=550
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BUZZ_COUNT_DI?BUZZ
+Program Size: data=17.0 xdata=0 code=550
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 2 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BUZZ_COUNT_DI?BUZZ
+Program Size: data=17.0 xdata=0 code=550
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling serial.c...
+SERIAL.C(133): error C129: missing ';' before 'serial_number'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BUZZ_COUNT_DI?BUZZ
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GET_SERIAL_NUMBER?SERIAL
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00A9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00BCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00CCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00DCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00ECH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 02BDH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 02BFH
+Program Size: data=17.0 xdata=0 code=711
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 24 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00A9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00BCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00CCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00DCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00ECH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 02C3H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 02C5H
+Program Size: data=17.0 xdata=0 code=717
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 22 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00A9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00BCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00CCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00DCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00ECH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 02C3H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 02C5H
+Program Size: data=17.0 xdata=0 code=717
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 22 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00A9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00BCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00CCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00DCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00ECH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 02C3H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 02C5H
+Program Size: data=17.0 xdata=0 code=717
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 22 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  GET_SERIAL_NUMBER
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GET_SERIAL_NUMBER
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0287H
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00A9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00BCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00CCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00DCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00ECH
+Program Size: data=17.0 xdata=0 code=712
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 22 Warning(s).
+compiling serial.c...
+serial.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00A9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00BCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00CCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00DCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00ECH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 02C3H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 02C5H
+Program Size: data=17.0 xdata=0 code=717
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 22 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00A9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00ACH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00B9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00BCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00C9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00CCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00D9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00DCH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E4H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00E9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 00ECH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 02C3H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 02C5H
+Program Size: data=17.0 xdata=0 code=717
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 22 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 0227H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  NUMBER_STATION_CURRENT
+    MODULE:  serial.obj (SERIAL)
+    ADDRESS: 0229H
+Program Size: data=17.0 xdata=0 code=561
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=19.0 xdata=0 code=721
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=19.0 xdata=0 code=721
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling serial.c...
+SERIAL.C(13): warning C231: 'receive_control_flag': redefinition
+SERIAL.C(13): warning C231: 'receive_control_flag': redefinition
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=21.0 xdata=0 code=736
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=730
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+SERIAL.C(25): error C141: syntax error near 'case'
+Target not created
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=744
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=744
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=744
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+MOTO.C(41): error C141: syntax error near '='
+compiling serial.c...
+Target not created
+Build target 'Target 1'
+compiling moto.c...
+MOTO.C(41): error C141: syntax error near ';'
+MOTO.C(41): error C141: syntax error near ')'
+Target not created
+Build target 'Target 1'
+compiling moto.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=789
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=789
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=789
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling moto.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=789
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=789
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=789
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=789
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=789
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=789
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling moto.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=792
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=792
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=792
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=806
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=806
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=792
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=792
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=792
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=792
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=792
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling moto.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=792
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=792
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=792
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=790
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=790
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=790
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling delay.c...
+compiling main.c...
+compiling moto.c...
+compiling buzz.c...
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=790
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling moto.c...
+MOTO.C(44): error C141: syntax error near 'int'
+MOTO.C(44): error C202: 'max_speed_use': undefined identifier
+MOTO.C(45): error C202: 'max_speed_use': undefined identifier
+MOTO.C(73): error C141: syntax error near 'int'
+MOTO.C(73): error C202: 'max_speed_use': undefined identifier
+MOTO.C(74): error C202: 'max_speed_use': undefined identifier
+MOTO.C(97): error C141: syntax error near 'int'
+MOTO.C(97): error C202: 'max_speed_use': undefined identifier
+MOTO.C(98): error C202: 'max_speed_use': undefined identifier
+MOTO.C(121): error C141: syntax error near 'int'
+MOTO.C(121): error C202: 'max_speed_use': undefined identifier
+MOTO.C(122): error C202: 'max_speed_use': undefined identifier
+compiling serial.c...
+SERIAL.C(107): warning C209: '_car_back': too few actual parameters
+SERIAL.C(114): warning C209: '_car_left': too few actual parameters
+SERIAL.C(121): warning C209: '_car_right': too few actual parameters
+Target not created
+Build target 'Target 1'
+compiling moto.c...
+MOTO.C(44): error C141: syntax error near 'int'
+MOTO.C(44): error C202: 'max_speed_use': undefined identifier
+MOTO.C(45): error C202: 'max_speed_use': undefined identifier
+MOTO.C(73): error C141: syntax error near 'int'
+MOTO.C(73): error C202: 'max_speed_use': undefined identifier
+MOTO.C(74): error C202: 'max_speed_use': undefined identifier
+MOTO.C(97): error C141: syntax error near 'int'
+MOTO.C(97): error C202: 'max_speed_use': undefined identifier
+MOTO.C(98): error C202: 'max_speed_use': undefined identifier
+MOTO.C(121): error C141: syntax error near 'int'
+MOTO.C(121): error C202: 'max_speed_use': undefined identifier
+MOTO.C(122): error C202: 'max_speed_use': undefined identifier
+compiling serial.c...
+Target not created
+Build target 'Target 1'
+compiling moto.c...
+MOTO.C(74): error C141: syntax error near 'int'
+MOTO.C(74): error C202: 'max_speed_use': undefined identifier
+MOTO.C(75): error C202: 'max_speed_use': undefined identifier
+MOTO.C(98): error C141: syntax error near 'int'
+MOTO.C(98): error C202: 'max_speed_use': undefined identifier
+MOTO.C(99): error C202: 'max_speed_use': undefined identifier
+MOTO.C(122): error C141: syntax error near 'int'
+MOTO.C(122): error C202: 'max_speed_use': undefined identifier
+MOTO.C(123): error C202: 'max_speed_use': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling moto.c...
+MOTO.C(124): error C141: syntax error near 'int'
+MOTO.C(124): error C202: 'max_speed_use': undefined identifier
+MOTO.C(125): error C202: 'max_speed_use': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling moto.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=1038
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=1038
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling serial.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAYS?DELAY
+Program Size: data=20.0 xdata=0 code=1027
+creating hex file from "51_car"...
+"51_car" - 0 Error(s), 1 Warning(s).

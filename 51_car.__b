@@ -1,0 +1,6 @@
+TRANSFER
+"STARTUP.obj",
+"delay.obj",
+"main.obj",
+"moto.obj" 
+TO "51_car.LIB"

@@ -1,0 +1,8 @@
+"STARTUP.obj",
+"delay.obj",
+"main.obj",
+"moto.obj",
+"buzz.obj",
+"serial.obj" 
+TO "51_car" 
+RAMSIZE(256) 
