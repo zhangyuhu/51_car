@@ -4,7 +4,7 @@
 #include "reg52.h"
 #include "is_compatible.h"
 
-sbit buzz_io  = P1^5;  
+sbit buzz_io  = P2^4;  
 
 
 void buzz_count_di(int count);
