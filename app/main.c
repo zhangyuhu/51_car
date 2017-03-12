@@ -9,6 +9,8 @@
 #include "buzz.h"
 #include "serial.h"
 
+//add this sentence in order to test git
+
 void main(void)
 {
  serial_init();
