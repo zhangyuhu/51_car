@@ -16,7 +16,7 @@ void sint() interrupt 4
 {  
 	if(RI){	                 
 		RI=0;
-    receive_buf[receive_count]=SBUF;
+             receive_buf[receive_count]=SBUF;
 		receive_count++;
 		if(receive_count==3) 
 		{
@@ -67,7 +67,7 @@ void sint() interrupt 4
 				break;
 			default:
 				car_station_current = STATION_CAR_STOP;
-		  	number_station_current = STATION_NUMBER_0;
+		  		number_station_current = STATION_NUMBER_0;
 				break;
 		}	
 	  	receive_count=0;
