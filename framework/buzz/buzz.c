@@ -20,7 +20,7 @@ void buzz_count_di(int count)
 {
 	while(count--)
 	{
-  use_buzz_io(true);
+  	use_buzz_io(true);
 	delayms(200);
 	use_buzz_io(false);
 	delayms(200);
