@@ -21,7 +21,7 @@ while(1)
 	buzz_count_di(5);
 	delays(5);
 	car_stop();
-	delays(5);
+  delays(5);
 	car_back();
 	delays(5);
 	car_left();
