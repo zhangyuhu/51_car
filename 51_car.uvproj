@@ -82,6 +82,8 @@
             <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
+            <nStopA1X>0</nStopA1X>
+            <nStopA2X>0</nStopA2X>
           </AfterMake>
           <SelectedForBatchBuild>0</SelectedForBatchBuild>
           <SVCSIdString></SVCSIdString>
@@ -309,7 +311,7 @@
               <MiscControls></MiscControls>
               <Define>DEVICE_TYPE_VALUE = 0x01</Define>
               <Undefine></Undefine>
-              <IncludePath>.\framework;.\app;.\framework\buzz;.\framework\compatible;.\framework\delay;.\framework\moto;.\framework\serial;.\framework\nrf24l01</IncludePath>
+              <IncludePath>.\framework;.\app;.\framework\buzz;.\framework\compatible;.\framework\delay;.\framework\moto;.\framework\serial;.\framework\nrf24l01;.\framework\NRF24L01</IncludePath>
             </VariousControls>
           </C51>
           <Ax51>
@@ -397,9 +399,9 @@
               <FilePath>.\framework\serial\serial.c</FilePath>
             </File>
             <File>
-              <FileName>nrf24l01.c</FileName>
+              <FileName>NRF24L01.C</FileName>
               <FileType>1</FileType>
-              <FilePath>.\framework\nrf24l01\nrf24l01.c</FilePath>
+              <FilePath>.\framework\NRF24L01\NRF24L01.C</FilePath>
             </File>
           </Files>
         </Group>
@@ -481,6 +483,8 @@
             <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
+            <nStopA1X>0</nStopA1X>
+            <nStopA2X>0</nStopA2X>
           </AfterMake>
           <SelectedForBatchBuild>0</SelectedForBatchBuild>
           <SVCSIdString></SVCSIdString>
@@ -796,9 +800,9 @@
               <FilePath>.\framework\serial\serial.c</FilePath>
             </File>
             <File>
-              <FileName>nrf24l01.c</FileName>
+              <FileName>NRF24L01.C</FileName>
               <FileType>1</FileType>
-              <FilePath>.\framework\nrf24l01\nrf24l01.c</FilePath>
+              <FilePath>.\framework\NRF24L01\NRF24L01.C</FilePath>
             </File>
           </Files>
         </Group>
