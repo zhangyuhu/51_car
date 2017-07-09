@@ -3,6 +3,7 @@
 #include "moto.h"
 #include "is_compatible.h"
 #include "delay.h"
+#include <NRF24L01.h>
 
 #define ALLOWABLE_STATION  ((car_station_current >= STATION_CAR_GO) &&(car_station_current <= STATION_CAR_STOP))?(true):(false)
 
@@ -170,13 +171,13 @@ void serial_control_car(void)
 
 }
 
-int get_serial_number(void)
+car_station_type get_car_station_current(void)
 {
-    return number_station_current;
+    return car_station_current;
 }
 #endif
 
- #if (USE_NRF24L01 == 1)
+#if (USE_NRF24L01 == 1)
 void serial_init(void)
 {
                      //初始化串行口和波特率发生器
@@ -190,4 +191,58 @@ void serial_init(void)
     PS=1;                //设计串行口中断优先级
     EA =1;               //单片机中断允许
 }
+
+
+
+#if (NRF_USED_RECEIVE == 0)
+void receive_nrf_data(void)
+{
+    int i = 0;
+    SetRX_Mode();//接收数据
+
+    if(nRF24L01_RxPacket(RxBuf))
+    {
+        switch(RxBuf[0])
+        {
+            case 'A'://前进
+            {
+                car_station_current = STATION_CAR_GO;
+                break;
+            }
+            case 'B'://后退
+            {
+                car_station_current = STATION_CAR_BACK;
+                break;
+            }
+            case 'C'://左转
+            {
+                car_station_current = STATION_CAR_LEFT;
+                break;
+            }
+            case 'D'://右转
+            {
+                car_station_current = STATION_CAR_RIGHT;
+                break;
+            }
+            case 'F'://stop
+            {
+                car_station_current = STATION_CAR_STOP;
+                break;
+            }
+        }
+
+//*************************************************************************************************
+        for (i = 0;i< 32;i++)
+        {
+            RxBuf[i]=0;
+        }
+        nRF24L01_flush();
+    }
+}
+#endif
+
+
+
+
+
 #endif

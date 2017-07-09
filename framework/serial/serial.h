@@ -6,7 +6,7 @@
 
 
 typedef enum {
-  STATION_CAR_GO    = 0,
+    STATION_CAR_GO    = 0,
     STATION_CAR_BACK  = 1,
     STATION_CAR_LEFT  = 2,
     STATION_CAR_RIGHT = 3,
@@ -15,7 +15,7 @@ typedef enum {
 
 typedef enum {
     STATION_NUMBER_0  = 0,
-  STATION_NUMBER_1  = 1,
+    STATION_NUMBER_1  = 1,
     STATION_NUMBER_2  = 2,
     STATION_NUMBER_3  = 3,
     STATION_NUMBER_4  = 4,
@@ -29,6 +29,8 @@ typedef enum {
 void serial_init(void);
 void serial_control_car(void);
 int get_serial_number(void);
+car_station_type get_car_station_current(void);
+void receive_nrf_data(void);
 
 extern volatile int car_station_current ;
 extern volatile int number_station_current ;
