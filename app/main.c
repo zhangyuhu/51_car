@@ -10,7 +10,6 @@
 #include "serial.h"
 
 //add this sentence in order to test git
-//add this sentence in order to test git
 
 void main(void)
 {
