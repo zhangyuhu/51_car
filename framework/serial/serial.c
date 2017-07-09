@@ -12,6 +12,7 @@ int car_station_current = STATION_CAR_STOP;
 int number_station_current = STATION_NUMBER_0;
 bool receive_control_flag = false;
 
+#if (USE_BLUETOOTH_SERIAL_MODULE == 1)
 void sint() interrupt 4
 {
     if(RI)
@@ -173,4 +174,20 @@ int get_serial_number(void)
 {
     return number_station_current;
 }
+#endif
 
+ #if (USE_NRF24L01 == 1)
+void serial_init(void)
+{
+                     //初始化串行口和波特率发生器
+    SCON =0x58;          //选择串口工作方式，打开接收允许
+    TMOD =0x21;          //定时器1工作在方式2，定时器0工作在方式1
+    TH1 =0xfd;           //实现波特率9600（系统时钟11.0592MHZ）
+    TL1 =0xfd;
+    TR1 =1;              //启动定时器T1
+    ET1 =0;
+    ES=1;                //允许串行口中断
+    PS=1;                //设计串行口中断优先级
+    EA =1;               //单片机中断允许
+}
+#endif

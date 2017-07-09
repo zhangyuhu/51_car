@@ -8,6 +8,7 @@
 #include <intrins.h>
 #include <NRF24L01.h>
 
+#if (USE_NRF24L01 == 1)
 static uint SPI_RW(uint uchar);
 static uchar SPI_Read(uchar reg);
 static uint SPI_RW_Reg(uchar reg, uchar value);
@@ -264,3 +265,4 @@ void nRF24L01_flush(void)
     SPI_RW(FLUSH_TX);
     CSN = 1;
 }
+#endif
