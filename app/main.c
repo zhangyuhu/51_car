@@ -12,7 +12,7 @@
 #include <NRF24L01.h>
 #include "control.h"
 
-//add this sentence in order to test git 2
+//add this sentence in order to test git 3
 
 #if (USE_NRF24L01 == 1)
 //**********************************按键IO端口定义*********************************************
